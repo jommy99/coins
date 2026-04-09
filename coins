@@ -212,6 +212,33 @@
       "erc20_sender_refund": 85000
     }
   },
+{
+    "coin": "PND-PLG20",
+    "name": "Pandacoin_plg20",
+    "fname": "Pandacoin",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 137,
+    "decimals": 18,
+    "avg_blocktime": 1.8,
+    "required_confirmations": 20,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "MATIC",
+        "contract_address": "0xAFbEb83db7eD6F4A0655D55bbc51484D955ce243"
+      }
+    },
+    "derivation_path": "m/44'/60'",
+    "use_access_list": true,
+    "max_eth_tx_type": 2,
+    "gas_limit": {
+      "eth_send_erc20": 55000,
+      "erc20_payment": 110000,
+      "erc20_receiver_spend": 85000,
+      "erc20_sender_refund": 85000
+    }
+  },
   {
     "coin": "AAVE-AVX20",
     "name": "aave_avx20",
